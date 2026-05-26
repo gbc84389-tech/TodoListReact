@@ -1,0 +1,58 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1re;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+    padding: 0 0.5rem;
+}
+
+.spanNumero {
+    font-size: 1.3rem;
+    width: 2rem;
+}
+
+.spanTarefa {
+    font-size: 1.3rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.spanTarefa::-webkit-scrollbar {
+  display: none;
+}
+
+.buttonEditarTarefa {
+    width: 4rem;
+    height: 2rem;
+    background-color: orange;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.buttonExcluirTarefa {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}

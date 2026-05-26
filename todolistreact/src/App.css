@@ -1,0 +1,40 @@
+.mainContainer {
+    background-color: lightblue;
+    width: 80vh;
+    max-height: 75vh;
+    height: 70vh;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.filtroContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mostrarContainer {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    border: 2px dashed black;
+    border-radius: 8px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtroButton {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
